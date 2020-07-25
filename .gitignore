@@ -2,13 +2,21 @@
 # Docker environment
 .env
 
-# Django environments
+# Python environments
 linux-venv/
 windows-venv/
+
+# Django migrations
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
 
 # Pycache
 __pycache__/
 *.pyc
+
+# MacOS
+.DS_Store
 
 # SQLite
 *.sqlite3
@@ -18,11 +26,9 @@ __pycache__/
 *.ogg
 *.mp3
 
-# Images
-*.jpg
-*.png
-*.gif
-*.svg
+# Media
+media/images/
+media/original_images/
 
 # Fonts
 *.ttf
