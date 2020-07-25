@@ -24,5 +24,9 @@
     "python"
   ],
   "cSpell.showStatus": true,
-  "cSpell.ignorePaths": ["linux-venv", "windows-venv"]
+  "cSpell.ignorePaths": [
+    "linux-venv",
+    "windows-venv"
+  ],
+  "python.formatting.provider": "black"
 }
